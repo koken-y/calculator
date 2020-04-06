@@ -1,0 +1,78 @@
+html {
+    font-family:'Roboto Slab', serif;
+}
+
+#display {
+    background-color: rgb(73, 73, 73);
+    width: 600px;
+    height: 75px;
+    text-align: center;
+    margin: 0 auto;
+    top: 180px;
+    position: relative;
+    color: white;
+    line-height: 2;
+}
+
+#equalButtonContainer {
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    bottom: -200px;
+} 
+
+#equalButton {
+    width: 270px;
+    height: 64px;
+}
+
+#title {
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 150px
+}
+
+.buttons {
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+input[type = 'button'].operator {
+    background-color: #3B91C7;  
+}
+
+input[type = 'button'].operator:hover {
+    background-color: rgb(68, 174, 240);  
+}
+
+input[type = 'button'].function {
+    background-color: #65C0D4;  
+}
+
+input[type = 'button'].function:hover {
+    background-color: rgb(115, 218, 241);  
+}
+
+input[type = 'button'] {
+    width: 64px;
+    height: 64px;
+    margin: 2px 2px;
+    padding: 0 0;
+
+    background-color: #1D3F59;
+    color: white;
+
+    text-align: center;
+    font-size: 20px;
+    font-family:'Roboto Slab', serif;
+}
+
+input[type = 'button']:hover {
+    background-color: rgb(50, 110, 155);
+    color: white;
+}
+
+  
+
